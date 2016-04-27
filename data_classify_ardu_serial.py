@@ -157,7 +157,7 @@ if __name__ == '__main__':
                     old_secim = 5
 
             if finger == 6 and old_secim != 6:
-                    print 'finger6'
+                    print 'rest'
                     ser.write('6')
                     old_secim = 6
 
